@@ -1,0 +1,16 @@
+.img-custom{
+    width:500px;
+    height: 300px;
+}
+
+.post{
+    width: 400px;
+    height:550px;
+}
+.postDescrp{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}

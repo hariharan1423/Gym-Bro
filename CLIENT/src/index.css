@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&family=Work+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Moon+Dance&family=Prompt&family=Work+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+html,
+body {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  @apply bg-yellow-400;
+}
+
+.box-shadow{
+  -webkit-box-shadow: 0px 0px 17px 13px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 17px 13px rgba(0,0,0,1);
+box-shadow: 0px 0px 17px 13px rgba(0,0,0,1);
+}
+
+.box-shadow-brown{
+  -webkit-box-shadow: -9px 10px 9px 0px rgba(255,0,0,1);
+-moz-box-shadow: -9px 10px 9px 0px rgba(255,0,0,1);
+box-shadow: -9px 10px 9px 0px rgba(255,0,0,1);
+}
+
+.box-shadow-plum{
+  -webkit-box-shadow: 0px 0px 32px 13px rgba(121,19,96,1);
+-moz-box-shadow: 0px 0px 32px 13px rgba(121,19,96,1);
+box-shadow: 0px 0px 32px 13px rgba(121,19,96,1);
+}
+
+.box-shadow-brown2{
+  -webkit-box-shadow: 9px 10px 9px 0px rgba(255,0,0,1);
+-moz-box-shadow: 9px 10px 9px 0px rgba(255,0,0,1);
+box-shadow: 9px 10px 9px 0px rgba(255,0,0,1);
+}

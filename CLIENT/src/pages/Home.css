@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Moon+Dance&family=Rampart+One&family=Work+Sans&display=swap');
+
+/* BORDERSSSSSS*/
+.topRight {
+  width: 400px;
+  position: relative;
+  left: 20%;
+  height: 300px;
+  border-top-right-radius: 30px;
+}
+.rightBottom {
+  width: 800px;
+  height: 200px;
+  border-bottom-right-radius: 30px;
+  z-index: 1.5;
+}
+.topLeft {
+  width: 400px;
+  position: relative;
+  top: 50px;
+  right: 20%;
+  height: 300px;
+  border-top-left-radius: 30px;
+}
+/*********/
+.one,.two,.three{
+ background-color: #FFDD83;
+}
+.navPic{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.footer {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px solid #2c0a3f;
+}
+
+.info h3 {
+  color:#2c0a3f;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 1000;
+  font-size: 30px;
+  text-align: center;
+}
+.info ol {
+  display: flex;
+}
+.info ol li {
+  list-style: none;
+  margin-left: 10px;
+}
+.info button {
+  border: none;
+  letter-spacing: 2px;
+  color: #2c0a3f;
+  font-family: "Work Sans", sans-serif;
+}
+
+.info button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.contact{
+  margin: 10px;
+}
+.contact p:nth-child(1) {
+  margin-top: 40px;
+  color:#2c0a3f;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact p:nth-child(3) {
+  color: #2c0a3f;
+  margin-top: 20px;
+}
+
+.contact p:nth-child(3) button {
+  color: #2c0a3f;
+}
+.contact ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  list-style: none;
+  color: #2c0a3f;
+}
+.contact button {
+  border: none;
+}
+.fa {
+  font-size: 40px;
+  border: none;
+  padding: 3px;
+  transition: background-color 2s opacity 2s;
+}
+.fa:hover {
+  background-color: white;
+  color: #2c0a3f;
+}
+.fa-facebook {
+  border-radius: 5px;
+  color: #2c0a3f;
+}
+
+.fa-twitter {
+  border-radius: 5px;
+  color: #2c0a3f;
+}
+.fa-instagram {
+  border-radius: 10px;
+  color: #2c0a3f;
+}
+
+.navResButton{
+  position: absolute;
+  right: 3%;
+  display: none;
+  z-index: 100000;
+}
+
+.navResStyle{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  z-index: 10000;
+}
+
+@media screen and (max-width:1272px){
+  /*HOME PAGE*/
+  .navResButton{
+    display: flex;
+  }
+  .navResStyle{
+    display: none;
+  }
+  .navResStyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: antiquewhite;
+    position: absolute;
+    z-index: 100;
+    border-radius: 40px;
+    gap: 30px;
+    right: -100%;
+    top: 16%;
+    width: 500px;
+    line-height: 50px;
+    transition: all .5s;
+  }
+  .navResStyle.show{
+    right: 4%;
+  }
+  .one{
+    display: flex;
+    height: 520px;
+    width:90%;
+  }
+  .img1{
+    width:400px;
+    transform: translate(0px,-20px);
+  }
+  .left-b-one{
+    width: 400px;
+    transform: translate(10%);  
+  }
+  .topRight{
+    width: 400px;
+    transform: translate(-120px,10px);
+  }
+  .two{
+    display: flex;
+    transform: translate(-10%);
+    height: 520px;
+    width: 90%;
+  }
+  .rightBottom{
+    width: 500px;
+    transform: translate(10%);  
+  }
+  .topLeft{
+    width: 400px;
+    height: 350px;
+    transform: translate(100px,-10px);
+  }
+  .three{
+    height: 550px;
+    width: 90%;
+  }
+  /*DIET PAGE*/
+  .topRight2{
+    width: 20px;
+  }
+}  
+/*NEXT BREAKPOINTS - 1154 - */
+
+@media screen and (max-width:1205px) {
+  .one-h1{
+    transform: translate(-10%,-70%);
+  }
+}
+
+@media screen and (max-width:1150px) {
+  .one{
+    display: block;
+    width: 70%;
+    height:80%;
+    padding: 50px;
+  }
+  .one-h1{
+    transform: translate(10px);
+  }
+  .img1,.img2,.img3{
+    transform: translate(40px);
+  }
+  .two{
+    display: block;
+    width: 70%;
+    height:80%;
+    padding: 50px;
+    transform: translate(10px);
+  }
+  .three{
+    display: block;
+    width: 70%;
+    height:80%;
+    padding: 50px;
+  }
+}

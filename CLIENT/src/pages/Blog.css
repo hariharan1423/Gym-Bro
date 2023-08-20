@@ -1,0 +1,14 @@
+
+.object-custom{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 2px 0px;
+}
+
+.writeTextArea{
+  width: 500px;
+  height:500px;
+  margin: 30px;
+}
